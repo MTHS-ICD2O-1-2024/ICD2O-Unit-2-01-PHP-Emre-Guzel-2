@@ -32,6 +32,7 @@
       </div>
       <div class="page-content">Hello, World in php</div>
       <br />
+      <img src="images/Hello_World_Brian_Kernighan_1978.jpg" alt="">
       <div class="page-content-answer">
         <a href="./index.php">Return ...</a>
       </div>
