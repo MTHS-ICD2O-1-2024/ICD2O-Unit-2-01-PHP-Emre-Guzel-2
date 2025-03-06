@@ -31,7 +31,7 @@
     </header>
     <main class="mdl-layout__content">
       <div class="right-image">
-        <img class="Calculate" src="images/clauclator.jpg" alt="">
+        <img class="Calculate" src="./images/clauclator.jpg" alt="">
       </div>
       <br />
       <!-- Simple Textfield for integers-->
