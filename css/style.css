@@ -1,5 +1,5 @@
 /* Created by: Emre Guzel
-* Created on: Feb 26 2025
+* Created on: March 5 2025
 * This file contains the CSS for index.html
 */
 
@@ -13,12 +13,19 @@ body {
   font-weight: weight;
   font-style: normal;
   background: skyblue;
-  margin: 2rem;
-
+}
+img{
+width: 30%;
+  text-align: center;
+  margin-left: 60vw;
+}
+img.pad {
+ 
+  margin-top: 5vw;
+ 
 }
 
-img {
-  width: 20%;
-  margin-left: 54vw;
-  margin: -24rem;
+#answer {
+  color: black;
+  margin-top: 1rem;
 }

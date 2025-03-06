@@ -17,7 +17,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
   <link rel="manifest" href="/site.webmanifest">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.css?f">
   <title>Hello world in js </title>
 </head>
 
@@ -26,23 +26,24 @@
   <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
     <header class="mdl-layout__header">
       <div class="mdl-layout__header-row">
-        <span class="mdl-layout-title">"Hello, world in php"</span>
+        <span class="mdl-layout-title">The "Hello, World!" program, PHP</span>
       </div>
     </header>
     <main class="mdl-layout__content">
-      <div class="right-image">
-      </div>
       <div class="page-content">
         <?php
         echo "Hello,World!";
         ?>
       </div>
-      <br />
-      <img src="images/Hello_World_Brian_Kernighan_1978.jpg" alt="">
       <div class="page-content-answer">
         <a href="./index.php">Return ...</a>
       </div>
+      <div class="right-image ">
+        <img src="./images/Hello_World_Brian_Kernighan_1978.jpg" class="pad" alt="Hello World">
+      </div>
     </main>
+  </div>
+
 </body>
 
 </html>

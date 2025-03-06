@@ -17,7 +17,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
   <link rel="manifest" href="/site.webmanifest">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.css?ddd">
   <title>Hello world in PHP </title>
 </head>
 
@@ -30,10 +30,6 @@
       </div>
     </header>
     <main class="mdl-layout__content">
-      <div class="right-image">
-        <img class="Calculate" src="./images/clauclator.jpg" alt="">
-      </div>
-      <br />
       <!-- Simple Textfield for integers-->
       <form action="answer.php" method="GET">
         <div class="mdl-textfield mdl-js-textfield">
@@ -45,7 +41,11 @@
             type="submit">
             Click here
           </button>
+        </div>
       </form>
+      <div class="right-image">
+            <img src="./images/Hello_World_Brian_Kernighan_1978.jpg" alt="Hello World">
+          </div>
       <br />
     </main>
   </div>
