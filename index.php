@@ -23,44 +23,32 @@
 
 <body>
   <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
-    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-      <header class="mdl-layout__header">
-        <div class="mdl-layout__header-row">
-          <span class="mdl-layout-title">Hello world in PHP</span>
-        </div>
-      </header>
-      <main class="mdl-layout__content">
-        <div class="right-image">
-        </div>
-        <br />
-        <!-- Simple Textfield for integers-->
-        <form action="answer.php" method="GET">
-          <div class="mdl-textfield mdl-js-textfield">
-            <!-- input pattern attribute -->
-            <input
-              class="mdl-textfield__input"
-              type="text"
-              pattern="-?[0-9]*(\.[0-9]+)?"
-              id="length"
-            />
-            <!-- mdl-textfield__label -->
-            <label class="mdl-textfield__label" for="demo-input"
-              >Length of ... (mm)</label
-            >
-            <!-- class "mdl-textfield__error" -->
-            <span class="mdl-textfield__error">Input is not a number</span>
-          </div>
+  <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+    <header class="mdl-layout__header">
+      <div class="mdl-layout__header-row">
+        <span class="mdl-layout-title">Hello world in PHP</span>
+      </div>
+    </header>
+    <main class="mdl-layout__content">
+      <div class="right-image">
+        <img class="Calculate" src="images/clauclator.jpg" alt="">
+      </div>
+      <br />
+      <!-- Simple Textfield for integers-->
+      <form action="answer.php" method="GET">
+        <div class="mdl-textfield mdl-js-textfield">
+          <!-- input pattern attribute -->
           <br />
           <!-- Accent-colored raised button with ripple -->
-          <button
+          <button id="btn-click"
             class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
-            type="submit"
-          >
+            type="submit">
             Calculate
           </button>
-        </form>
-        <br />
-      </main>
-    </div>
+      </form>
+      <br />
+    </main>
+  </div>
 </body>
+
 </html>

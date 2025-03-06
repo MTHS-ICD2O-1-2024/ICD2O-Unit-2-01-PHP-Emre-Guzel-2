@@ -18,12 +18,6 @@ body {
 }
 
 .Calculate {
-  width: 30%;
-  text-align: center;
-  margin-top: 5vw;
-  margin-left: 36vw;
-}
-button{
-  background: black;
-  margin-top: 2rem;
+  margin-left: 54vw;
+  margin: -24rem;
 }
